@@ -1,0 +1,7 @@
+sudo mkdir /soft
+sudo chmod 755 /soft
+
+
+drwxr-xr-x = 755
+root (sudo) читать / писать / выполнять
+остальные	читать / заходить
