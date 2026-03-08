@@ -1,3 +1,14 @@
+Если туда копировать файл (через WinSCP, FileZilla), то лучше права сделать 777
+
+sudo mkdir /soft
+sudo chmod 777 /soft
+
+drwxrwxrwx = 777
+
+
+-------------------------
+
+
 sudo mkdir /soft
 sudo chmod 755 /soft
 
