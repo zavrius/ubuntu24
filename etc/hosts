@@ -1,0 +1,20 @@
+127.0.0.1 localhost
+127.0.1.1 node1
+
+# The following lines are desirable for IPv6 capable hosts
+::1     ip6-localhost ip6-loopback
+fe00::0 ip6-localnet
+ff00::0 ip6-mcastprefix
+ff02::1 ip6-allnodes
+ff02::2 ip6-allrouters
+
+# My cluster settings
+192.168.3.11 node1
+192.168.3.12 node2
+192.168.3.13 node3
+192.168.3.14 node4
+192.168.3.15 node5
+192.168.3.16 node6
+192.168.3.17 node7
+192.168.3.18 node8
+192.168.3.19 node9
