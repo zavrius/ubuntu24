@@ -1,0 +1,12 @@
+Создадим юзера admin1 с sudo правами
+
+sudo adduser admin1
+sudo usermod -aG sudo admin1
+
+groups admin1
+должно быть : admin1 : admin1 sudo
+
+
+(Полезно для серверов) проверить sudo-группу
+sudo visudo
+должно быть : %sudo   ALL=(ALL:ALL) ALL
