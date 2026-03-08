@@ -34,8 +34,9 @@ tar -tzf /soft/digital-q-database64xid-17-17.4.26012101-ubuntu24_x86_64.tar.gz |
 
 ------------
 
-zav@node1:/soft$ mkdir dqdb64
-zav@node1:/soft$ tar -xzf digital-q-database64*.tar.gz -C /soft/dqdb64 --strip-components=1
+cd /soft
+mkdir dqdb64
+tar -xzf digital-q-database64*.tar.gz -C /soft/dqdb64 --strip-components=1
 
 при помощи --strip-components=1 не будет промежуточной папки 
 digital-q-database64xid-17-17.4.26012101-ubuntu24_x86_6 внутри /soft/dqdb64
@@ -52,10 +53,22 @@ drwxr-xr-x 2 zav  zav  4096 янв 21 03:42 qdb-vip-manager
 -rw-r--r-- 1 zav  zav  2450 янв 21 02:37 README.txt
 drwxr-xr-x 2 zav  zav  4096 янв 21 03:49 securityextensions
 
+mkdir clr
+tar -xzf digital-q-database-clr*.tar.gz -C /soft/clr --strip-components=1
+
+
 
 --------------
 
 sudo apt install tree -y
+
+tree -L 2 clr
+clr
+├── qdatabaseclr-17-17.4.26012101-ubuntu24_x86_64.deb
+└── README_CLR.txt
+
+1 directory, 2 files
+
 
 tree -L 2 /soft/dqdb64
 
