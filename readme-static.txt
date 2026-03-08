@@ -36,8 +36,17 @@ sudo netplan generate
 sudo netplan apply
 
 5. Проверить
+
 ip a | grep gl
+inet 192.168.3.11/24 brd 192.168.3.255 scope global enp0s3
+
 ip r | grep def
+default via 192.168.3.1 dev enp0s3 proto static 
+
+grep -v ^# /etc/resolv.conf 
+nameserver 127.0.0.53
+options edns0 trust-ad
+search .
 
 
 6. Проверка после перезагрузки
