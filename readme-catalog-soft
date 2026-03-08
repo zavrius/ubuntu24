@@ -16,3 +16,14 @@ sudo chmod 755 /soft
 drwxr-xr-x = 755
 root (sudo) читать / писать / выполнять
 остальные	читать / заходить
+
+
+
+---------------
+
+закачиваем туда файлы 
+
+786436 -rw-rw-r--  1 zav  zav  276M мар  8 11:05 digital-q-database64xid-17-17.4.26012101-ubuntu24_x86_64.tar.gz       #полный пакет для СУБД
+786437 -rw-rw-r--  1 zav  zav  188M мар  8 11:06 digital-q-database-clr-17-17.4.26012101-ubuntu24_x86_64.tar.gz        #только CLR
+
+---------------
