@@ -58,6 +58,10 @@ tar -xzf digital-q-database-clr*.tar.gz -C /soft/clr --strip-components=1
 
 
 
+Распакуем etcd так как он в zip
+sudo apt install unzip -y
+unzip /soft/dqdb64/qdb-etcd/QDBPG-ETCD-3.5.15-25112004.zip -d /soft/dqdb64/qdb-etcd
+
 --------------
 
 sudo apt install tree -y
